@@ -1,0 +1,14 @@
+.navigation ul li {
+  display: inline-block;
+  padding: 0 30px;
+  font-size: 13px;
+}
+
+.navigation ul li a {
+  text-decoration: none;
+}
+
+.navigation .nav-title {
+  color: gold;
+}
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3Nhc3Mvc3R5bGUuc2NzcyIsInN0eWxlLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUVRLHFCQUFxQjtFQUNyQixlQUFlO0VBQ2YsZUFBZTtBQ0F2Qjs7QURKQTtFQU1ZLHFCQUFxQjtBQ0VqQzs7QURSQTtFQVVRLFdBQVc7QUNFbkIiLCJmaWxlIjoic3R5bGUuY3NzIn0= */
