@@ -11,3 +11,15 @@
         color: gold;
     }
 }
+.splash{
+    background-image: url("https://images.pexels.com/photos/4992673/pexels-photo-4992673.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=450&w=1080");
+    min-height: 500px;
+    position: relative;
+    .splash-inner{
+        position: absolute;
+        top: 50%;
+        right: 50%;
+        transform: translate(50%, -50%);
+        text-align: center;
+    }
+}

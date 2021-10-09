@@ -11,4 +11,18 @@
 .navigation .nav-title {
   color: gold;
 }
-/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3Nhc3Mvc3R5bGUuc2NzcyIsInN0eWxlLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUVRLHFCQUFxQjtFQUNyQixlQUFlO0VBQ2YsZUFBZTtBQ0F2Qjs7QURKQTtFQU1ZLHFCQUFxQjtBQ0VqQzs7QURSQTtFQVVRLFdBQVc7QUNFbkIiLCJmaWxlIjoic3R5bGUuY3NzIn0= */
+
+.splash {
+  background-image: url("https://images.pexels.com/photos/4992673/pexels-photo-4992673.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=450&w=1080");
+  min-height: 500px;
+  position: relative;
+}
+
+.splash .splash-inner {
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  transform: translate(50%, -50%);
+  text-align: center;
+}
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3Nhc3Mvc3R5bGUuc2NzcyIsInN0eWxlLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUVRLHFCQUFxQjtFQUNyQixlQUFlO0VBQ2YsZUFBZTtBQ0F2Qjs7QURKQTtFQU1ZLHFCQUFxQjtBQ0VqQzs7QURSQTtFQVVRLFdBQVc7QUNFbkI7O0FEQ0E7RUFDSSx3SUFBd0k7RUFDeEksaUJBQWlCO0VBQ2pCLGtCQUFrQjtBQ0V0Qjs7QURMQTtFQUtRLGtCQUFrQjtFQUNsQixRQUFRO0VBQ1IsVUFBVTtFQUNWLCtCQUErQjtFQUMvQixrQkFBa0I7QUNJMUIiLCJmaWxlIjoic3R5bGUuY3NzIn0= */
