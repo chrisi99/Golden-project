@@ -1,3 +1,17 @@
+/* GLOBAL */
+$color-one: #ffffff;
+$color-two: #ffd32a;
+
+.section-title{
+    text-align: center;
+    font-size: 30px;
+}
+
+.section-subtitle{
+    text-align: center;
+    margin-bottom: 80px;
+}
+
 .navigation{
     ul li{
         display: inline-block;
@@ -21,5 +35,19 @@
         right: 50%;
         transform: translate(50%, -50%);
         text-align: center;
+    }
+}
+.services{
+    padding: 50px 0;
+    .service-description{
+        text-align: center;
+        i{
+            font-size: 35px;
+            color: $color-two;
+            border: 3px solid $color-two;
+            border-radius: 50%;
+            width: 65px;
+            height: 65px;
+        }
     }
 }
