@@ -1,6 +1,8 @@
 /* GLOBAL */
 $color-one: #ffffff;
 $color-two: #ffd32a;
+$font-one: 'Roboto Condensed', sans-serif;
+$font-two: 'Dosis', sans-serif;
 
 body{
     margin: 0;
@@ -16,19 +18,42 @@ body{
     text-decoration: wavy;
 }
 
+.page-title{
+    color: $color-one;
+    font-family: $font-one;
+    font-size: 45px;
+}
+
+.page-subtitle{
+    color: $color-one;
+    font-family: $font-two;
+    font-size: 25px;
+    font-style: italic;
+}
+
+/* NAVIGATION */
+
 .navigation{
+    .nav-title{
+        color: $color-two;
+        font-family: 'Dancing Script', cursive;
+        font-style: italic;
+    }
+
     ul li{
         display: inline-block;
         padding: 0 30px;
         font-size: 13px;
+        color: $color-one;
         a{
             text-decoration: none;
+            color: $color-one;
         }
     }
-    .nav-title{
-        color: gold;
-    }
 }
+
+/*SPLASH*/
+
 .splash{
     background-image: url("https://images.pexels.com/photos/4992673/pexels-photo-4992673.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=450&w=1080");
     min-height: 500px;
@@ -39,8 +64,25 @@ body{
         right: 50%;
         transform: translate(50%, -50%);
         text-align: center;
+        .splash-button{
+            min-width: 16px;
+            margin: 24px auto 0 auto;
+            padding: 16px 25px;
+            border-radius: 5px;
+            font-size: 21px;
+            font-family: $font-one;
+            text-align: center;
+            text-decoration: none;
+            cursor: pointer;
+            background-color: $color-two;
+            color: $color-one;
+        }
     }
 }
+
+
+/* SERVICES */ 
+
 .services{
     padding: 60px;
     .service-description{
@@ -65,6 +107,7 @@ body{
 }
 
 /* PORTFOLIO */
+
 .portfolio{
     background-color: #dfe6e9;
     padding: 60px;
@@ -83,6 +126,8 @@ body{
         height: 300px;
         }
 }   
+
+/* FOOTER */
 
 .page-footer{
     padding: 5px 0;
