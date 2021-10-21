@@ -131,6 +131,10 @@ body{
         text-align: center;
         line-height: 5px;
         padding: 10px;
+        font-family: $font-one;
+        p{
+            font-family: $font-two;
+        }
     }
     img{
         width: 100%;
