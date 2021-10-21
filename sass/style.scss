@@ -10,12 +10,15 @@ body{
 .section-title{
     text-align: center;
     font-size: 30px;
+    font-family: $font-one;
 }
 
 .section-subtitle{
     text-align: center;
     margin-bottom: 80px;
     text-decoration: wavy;
+    font-family: $font-two;
+    font-style: italic;
 }
 
 .page-title{
@@ -29,6 +32,14 @@ body{
     font-family: $font-two;
     font-size: 25px;
     font-style: italic;
+}
+
+.service-title{
+    font-family: $font-one;
+}
+
+.service-description{
+    font-family: $font-two;
 }
 
 /* NAVIGATION */
