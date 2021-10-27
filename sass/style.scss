@@ -42,6 +42,11 @@ body{
     font-family: $font-two;
 }
 
+.wrapper{
+    display: flex;
+    flex-direction: row;
+}
+
 /* NAVIGATION */
 
 .navigation{
@@ -180,5 +185,19 @@ body{
             margin: 0 5px;
             color: #ffffff;
         }
+    }
+}
+
+/* MEDIA */ 
+
+@media(max-width: 767px){
+    .row{
+        flex-direction: column;
+    }
+    .page-title{
+        font-size: 30px;
+    }
+    .page-subtitle{
+        font-size: 20px;
     }
 }
